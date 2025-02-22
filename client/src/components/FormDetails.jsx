@@ -86,7 +86,7 @@ let year = date.getFullYear();
              city  :  {props.empdate.cityname} , <br /> state  :  {props.empdate.state}  , <br /> pincode  :  {props.empdate.spincode} <br />
                              
              panNO  : {props.empdate.pan} <br />
-             GstRegNO  : {props.empdate.gst}
+             {/* GstRegNO  : {props.empdate.gst} */}
            </div>
 
     </div>
@@ -194,7 +194,7 @@ let year = date.getFullYear();
     <button className={style5.btn} onClick={downloadPDF} >Download Pdf</button> <br />
     <form onSubmit={sendEmail} ref={form}>
 
-      <input type="email" name="email" id="email" placeholder='Enter Email'/>
+      {/* <input type="email" name="email" id="email" placeholder='Enter Email'/> */}
 
     <button className={style5.btn} type='submit' >Send Email</button>
 
